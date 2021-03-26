@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nevflix", "Nevflix\Nevflix.csproj", "{A2528693-FC93-4ACA-AA6A-1BBBA10D6041}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2528693-FC93-4ACA-AA6A-1BBBA10D6041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2528693-FC93-4ACA-AA6A-1BBBA10D6041}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2528693-FC93-4ACA-AA6A-1BBBA10D6041}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2528693-FC93-4ACA-AA6A-1BBBA10D6041}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14C0EFCD-D58B-4971-9261-025EE00BB183}
+	EndGlobalSection
+EndGlobal
