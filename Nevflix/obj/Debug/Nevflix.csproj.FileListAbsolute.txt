@@ -1,0 +1,10 @@
+C:\Users\Nevena\Documents\GithubProjects\Nevflix\Nevflix\bin\Debug\Nevflix.exe.config
+C:\Users\Nevena\Documents\GithubProjects\Nevflix\Nevflix\bin\Debug\Nevflix.exe
+C:\Users\Nevena\Documents\GithubProjects\Nevflix\Nevflix\bin\Debug\Nevflix.pdb
+C:\Users\Nevena\Documents\GithubProjects\Nevflix\Nevflix\obj\Debug\Nevflix.csprojAssemblyReference.cache
+C:\Users\Nevena\Documents\GithubProjects\Nevflix\Nevflix\obj\Debug\Nevflix.Form1.resources
+C:\Users\Nevena\Documents\GithubProjects\Nevflix\Nevflix\obj\Debug\Nevflix.Properties.Resources.resources
+C:\Users\Nevena\Documents\GithubProjects\Nevflix\Nevflix\obj\Debug\Nevflix.csproj.GenerateResource.cache
+C:\Users\Nevena\Documents\GithubProjects\Nevflix\Nevflix\obj\Debug\Nevflix.csproj.CoreCompileInputs.cache
+C:\Users\Nevena\Documents\GithubProjects\Nevflix\Nevflix\obj\Debug\Nevflix.exe
+C:\Users\Nevena\Documents\GithubProjects\Nevflix\Nevflix\obj\Debug\Nevflix.pdb
