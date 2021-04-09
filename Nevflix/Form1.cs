@@ -30,12 +30,21 @@ namespace Nevflix
                 {
                     PictureBox p = new PictureBox();
                     p.Location = new Point(12, 196);
-                    Image img = Image.FromFile("landscape.jpg");
+                    p.Click += p_Click;
+                Image img = Image.FromFile("landscape.jpg");
+                    //Image img = Image.FromFile("Filmovi.txt");
                     p.Image = img;
                     p.SizeMode = PictureBoxSizeMode.StretchImage;
                     Controls.Add(p);
-                }
-            
+
+                
+            }
+            void p_Click(object sender, EventArgs e)
+            {
+                //string RowID = ((PictureBox)sender).Name;
+                MessageBox.Show("opis filma");
+            }
+
         }
 
         
