@@ -9,17 +9,40 @@ namespace Nevflix
     enum Zanr { triler, horor, ljubic, akcija, komedija, dokumentarac}
     class Film
     {
+        private int id;
         private string naziv;
-        private double rating;
+        private int godina;
         private string opis;
-        private List<string> glumci = new List<string>();
-        private int vremeTrajanja;
-        private Zanr zanr ;
+        private int vremeTrajanja; //u mintima
+        private double rating;
+        private Zanr zanr;
+        private string glumci;
+        private string urlSlike;
 
+        public int Id { get => id; }
+        public string UrlSlike { get => urlSlike; }
+        public string Opis { get => opis; }
+        public string Naziv { get => naziv; }
+        internal Zanr Zanr { get => zanr; }
+
+        public Film() { }
+
+        public Film(int id, string naziv, int godina, string opis, int vremeTrajanja, double rating, Zanr zanr, string glumci, string urlSlike)
+        {
+            this.id = id;
+            this.naziv = naziv;
+            this.godina = godina;
+            this.opis = opis;
+            this.vremeTrajanja = vremeTrajanja;
+            this.rating = rating;
+            this.zanr = zanr;
+            this.glumci = glumci;
+            this.urlSlike = urlSlike;
+        }
 
         public override string ToString()
         {
-            return $"naziv: {naziv}\n{opis}\nglumci: {glumci.ToString()}\nrating: {rating}\nvreme trajanja: {vremeTrajanja}";
+            return $"id: {Id}\nnaziv: {Naziv}\ngodina: {godina}\nvreme trajanja: {vremeTrajanja}\nrating: {rating}\nzanr: {Zanr}\n{Opis}\nglumci: {glumci}";
         }
         public void PrikaziFilm()
         {
