@@ -27,28 +27,4 @@ gde ce se praviti dnevnik za korisnike
 
 
 
-pokusavam da napravim picturebox kontejnere za slike filmova i svaki taj ima naziv kao id filma
 
-
-
-
-
-
-while ((linija = sr.ReadLine()) != null)
-            {
-                PictureBox p = new PictureBox();
-                p.Location = new Point(XKoordinata, YKoordinata);
-                p.Name = brojac++.ToString();
-                p.BackColor = Color.Red;
-                /*p.Click += p_Click;
-                Image img = Image.FromFile("landscape.jpg");*/
-                //Image img = Image.FromFile("Filmovi.txt");
-                //p.Image = img;
-                //p.SizeMode = PictureBoxSizeMode.StretchImage;
-                  
-                Controls.Add(p);
-                XKoordinata += 115;
-
-
-
-            }

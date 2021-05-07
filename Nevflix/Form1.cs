@@ -176,6 +176,7 @@ namespace Nevflix
 
         private void cbZanrovi_SelectedIndexChanged(object sender, EventArgs e)
         {
+            MessageBox.Show("baljdf");
             //List <Film> lista = new List<Film>();
 
             //Zanr z =Enum.Parse(typeof(Zanr), cbZanrovi.SelectedItem.ToString());

@@ -8,3 +8,4 @@ C:\Users\Nevena\Documents\GithubProjects\Nevflix\Nevflix\obj\Debug\Nevflix.cspro
 C:\Users\Nevena\Documents\GithubProjects\Nevflix\Nevflix\obj\Debug\Nevflix.exe
 C:\Users\Nevena\Documents\GithubProjects\Nevflix\Nevflix\obj\Debug\Nevflix.pdb
 C:\Users\Nevena\Documents\GithubProjects\Nevflix\Nevflix\obj\Debug\Nevflix.forma.resources
+C:\Users\Nevena\Documents\GithubProjects\Nevflix\Nevflix\obj\Debug\Nevflix.Logovanje.resources
