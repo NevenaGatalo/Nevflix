@@ -18,7 +18,10 @@ namespace Nevflix
         private Zanr zanr;
         private string glumci;
         private string urlSlike;
+        private string url;
 
+        
+        public string Url { get => url; }
         public int Id { get => id; }
         public string UrlSlike { get => urlSlike; }
         public string Opis { get => opis; }
@@ -27,7 +30,7 @@ namespace Nevflix
 
         public Film() { }
 
-        public Film(int id, string naziv, int godina, string opis, int vremeTrajanja, double rating, Zanr zanr, string glumci, string urlSlike)
+        public Film(int id, string naziv, int godina, string opis, int vremeTrajanja, double rating, Zanr zanr, string glumci, string urlSlike, string url)
         {
             this.id = id;
             this.naziv = naziv;
@@ -38,6 +41,7 @@ namespace Nevflix
             this.zanr = zanr;
             this.glumci = glumci;
             this.urlSlike = urlSlike;
+            this.url = url;
         }
 
         public override string ToString()

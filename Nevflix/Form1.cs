@@ -61,7 +61,7 @@ namespace Nevflix
                 double rating = Convert.ToDouble(objekat[5]);
                 Zanr zanr = (Zanr)Enum.Parse(typeof(Zanr), objekat[6]);
 
-                Film film = new Film(id, objekat[1], godina, objekat[3], vreme, rating, zanr, objekat[7], objekat[8]);
+                Film film = new Film(id, objekat[1], godina, objekat[3], vreme, rating, zanr, objekat[7], objekat[9], objekat[8]);
                 filmovi.Add(film);
             }
         }
@@ -82,6 +82,15 @@ namespace Nevflix
                 p.SizeMode = PictureBoxSizeMode.StretchImage;
                 Controls.Add(p);
                 p.Click += this.PictureBox_Click;
+
+                Button b = new Button();
+                b.Location = new Point(XKoordinata, YKoordinata + 55);
+                b.Text = "Gledaj";
+                b.Name = film.Id.ToString();
+                b.AccessibleName = film.Url;
+                Controls.Add(b);
+                b.Click += this.GledajButton_Click;
+                //p.DoubleClick += this.PictureBox_DoubleClick;
 
                 XKoordinata += 115;
                 //ako je x koordinata veca ili jednaka sa x + width od forme --> povecaj y i resetuj x
@@ -153,6 +162,15 @@ namespace Nevflix
             PictureBox box = (PictureBox)sender;
             int ime = Convert.ToInt32(box.Name);
             MessageBox.Show(filmovi[ime-1].Opis, filmovi[ime-1].Naziv);
+        }
+
+        public static string prosledi;
+        private void GledajButton_Click(object sender, EventArgs e)
+        {
+            Button b = (Button)sender;
+            prosledi = b.AccessibleName;
+            Video v = new Video();
+            v.ShowDialog();
         }
 
         private void tbSearch_KeyDown(object sender, KeyEventArgs e)
